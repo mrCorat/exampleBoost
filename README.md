@@ -17,8 +17,12 @@
 - Boost >= 1.70 (компонент graph)
 
 ### Установка Boost
-
+выполнять команды в корне репозитория
 **Linux (Ubuntu/Debian):**
 ```bash
 sudo apt install libboost-all-dev# exampleBoost
 Repository for example use Boost::Graphs
+cmake .
+make
+./demo
+
